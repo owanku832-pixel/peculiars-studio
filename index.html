@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peculiar's Studio | Where Every Story Begins</title>
+  <meta name="description" content="Original stories, story blueprints and creative story development by Peculiar's Studio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">PECULIAR'S <span>STUDIO</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#process">How it works</a><a class="nav-cta" href="#contact">Start a story</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">A HOME FOR ORIGINAL IDEAS</p>
+        <h1>Every great story<br><em>begins somewhere.</em></h1>
+        <p class="hero-copy">Have a story in your heart but don't know how to tell it? Let's bring it to life, one carefully crafted page at a time.</p>
+        <a class="button" href="#contact">Create your story <span>→</span></a>
+        <p class="tagline">WHERE EVERY STORY BEGINS.</p>
+      </div>
+      <div class="hero-art" aria-label="Decorative open book illustration">
+        <div class="book"><div class="book-page"></div><div class="book-page right"></div><span>Once upon<br>a time...</span></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+      </div>
+    </section>
+
+    <section class="intro section" id="about">
+      <p class="eyebrow">WELCOME TO PECULIAR'S STUDIO</p>
+      <h2>Your imagination deserves<br><em>a story of its own.</em></h2>
+      <p>We turn loose ideas, daydreams and “what if” moments into meaningful stories. Whether you have every detail planned or don't know where to begin, there's room for your idea here.</p>
+    </section>
+
+    <section class="services section" id="services">
+      <p class="eyebrow">WHAT WE CREATE</p>
+      <h2>Stories shaped around <em>your vision.</em></h2>
+      <div class="service-grid">
+        <article class="service-card"><span class="number">01</span><h3>Story Blueprints</h3><p>A strong foundation for your next book: original concepts, character profiles, plot outlines, chapter breakdowns and twists.</p></article>
+        <article class="service-card"><span class="number">02</span><h3>Custom Story Writing</h3><p>An original story developed from your preferences, genre, characters and the kind of experience you want readers to have.</p></article>
+        <article class="service-card"><span class="number">03</span><h3>Story Development</h3><p>Thoughtful help strengthening your plot, characters, dialogue, pacing and chapter plans.</p></article>
+      </div>
+      <div class="genres"><span>ROMANCE</span><span>FANTASY</span><span>SUPERNATURAL</span><span>MYSTERY</span><span>SUSPENSE</span><span>YOUNG ADULT</span></div>
+    </section>
+
+    <section class="process section" id="process">
+      <p class="eyebrow">A SIMPLE PROCESS</p><h2>From first thought<br>to <em>finished story.</em></h2>
+      <div class="steps">
+        <div><b>01</b><h3>Tell us your idea</h3><p>Share your genre, preferences and any details you already have.</p></div>
+        <div><b>02</b><h3>Shape the plan</h3><p>We'll agree on the project scope, price and delivery timeline before work begins.</p></div>
+        <div><b>03</b><h3>Bring it to life</h3><p>Your story is developed with care, with updates agreed as part of the project.</p></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">YOUR STORY STARTS HERE</p><h2>Let's create something <em>remarkable.</em></h2>
+      <p>Tell us a little about the story you want to create. We'll get back to you to discuss the next step.</p>
+      <form id="story-form">
+        <label>Your name<input name="name" required placeholder="Your name"></label>
+        <label>Email address<input type="email" name="email" required placeholder="you@example.com"></label>
+        <label>What are you looking for?
+          <select name="service" required><option value="">Choose a service</option><option>Story Blueprint</option><option>Custom Story Writing</option><option>Story Development</option></select>
+        </label>
+        <label>Tell us about your idea<textarea name="idea" rows="5" required placeholder="Share your idea, genre, characters or what you need help with..."></textarea></label>
+        <button class="button" type="submit">Send enquiry <span>→</span></button>
+        <p class="form-note">This demo opens your email app to send the enquiry. Add your email address in script.js first.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home">PECULIAR'S <span>STUDIO</span></a><p>Where Every Story Begins.</p><small>© <span id="year"></span> Peculiar's Studio. All rights reserved.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
