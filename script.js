@@ -1,5 +1,4 @@
-const BUSINESS_EMAIL = "ADD_YOUR_EMAIL_HERE";
-
+const BUSINESS_EMAIL = "owanku832@gmail.com";
 const menuButton = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
 
