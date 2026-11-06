@@ -30,5 +30,5 @@ document.getElementById("story-form").addEventListener("submit", event => {
     `Name: ${data.get("name")}\nEmail: ${data.get("email")}\nService: ${data.get("service")}\n\nStory idea:\n${data.get("idea")}`
   );
 
-  window.location.href = `mailto:${BUSINESS_EMAIL}?subject=${subject}&body=${body}`;
+  window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(BUSINESS_EMAIL)}&su=${subject}&body=${body}`, "_blank");
 });
